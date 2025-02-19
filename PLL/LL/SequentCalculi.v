@@ -61,12 +61,12 @@ The considered systems are:
 Require Export Syntax.
 Require Export MultisetLL.
 Require Export StrongInduction.
-Require Import Coq.Relations.Relations.
-Require Import Coq.Arith.EqNat.
-Require Import Coq.Classes.Morphisms.
-Require Import Coq.Setoids.Setoid.
-Require Import Coq.Program.Equality.
-Require Export List.
+From Stdlib Require Import Relations.Relations.
+From Stdlib Require Import Arith.EqNat.
+From Stdlib Require Import Classes.Morphisms.
+From Stdlib Require Import Setoids.Setoid.
+From Stdlib Require Import Program.Equality.
+From Stdlib Require Export List.
 Export ListNotations.
 Set Implicit Arguments.
 

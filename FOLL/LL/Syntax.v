@@ -33,13 +33,13 @@ This file also defines the polarity of formulas following Andreoli's focused sys
  *)
 
 (* Add LoadPath "../".  *)
-Require Export Bool.
-Require Export Arith.
-Require Export Nat.
-Require Export Coq.Relations.Relations.
-Require Export Coq.Classes.Morphisms.
-Require Import Coq.Logic.FunctionalExtensionality.
-Require Import Coq.Arith.EqNat.
+From Stdlib Require Export Bool.
+From Stdlib Require Export Arith.
+From Stdlib Require Export Nat.
+From Stdlib Require Export Relations.Relations.
+From Stdlib Require Export Classes.Morphisms.
+From Stdlib Require Import Logic.FunctionalExtensionality.
+From Stdlib Require Import Arith.EqNat.
 Require Export LL.Multisets.  
 Require Import LL.StrongInduction.
 Require Export LL.Eqset.

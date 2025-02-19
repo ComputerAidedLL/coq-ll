@@ -11,14 +11,14 @@ focused system.
 Require Export LL.MultisetLL.
 Require Export Syntax.
 Require Export LL.MetaTheory.StrongInduction.
-Require Import Coq.Arith.EqNat.
-Require Import Coq.Classes.Morphisms.
-Require Import Coq.Setoids.Setoid.
-Require Import Lia.
+From Stdlib Require Import Arith.EqNat.
+From Stdlib Require Import Classes.Morphisms.
+From Stdlib Require Import Setoids.Setoid.
+From Stdlib Require Import Lia.
 Require Export LL.llTactics.
-Require Export List.
+From Stdlib Require Export List.
 Export ListNotations.
-Require Import Coq.Program.Equality.
+From Stdlib Require Import Program.Equality.
 
 
 Set Implicit Arguments.

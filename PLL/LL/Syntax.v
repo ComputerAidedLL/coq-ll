@@ -28,12 +28,12 @@ The weight (or complexity) of a formula can be obtained via [lexp_weight].
  *)
 
 
-Require Export Bool.
+From Stdlib Require Export Bool.
 Require Export Atoms.
-Require Export Coq.Relations.Relations.
-Require Export Coq.Classes.Morphisms.
-Require Import Coq.Logic.FunctionalExtensionality.
-Require Import Coq.Arith.EqNat.
+From Stdlib Require Export Relations.Relations.
+From Stdlib Require Export Classes.Morphisms.
+From Stdlib Require Import Logic.FunctionalExtensionality.
+From Stdlib Require Import Arith.EqNat.
 Set Implicit Arguments.
 
 

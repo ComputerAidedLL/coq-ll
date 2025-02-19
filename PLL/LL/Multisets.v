@@ -6,14 +6,14 @@ https://github.com/brunofx86/LL *)
 Representation of multisets and some needed results about them.
  *)
 
-Require Export Permutation.
-Require Export Coq.Relations.Relations.
-Require Export Coq.Classes.Morphisms.
-Require Export Coq.Setoids.Setoid.
-Require Export Coq.Sorting.PermutSetoid.
-Require Export Coq.Sets.Multiset.
-Require Export List.
-Require Export PeanoNat Lia.
+From Stdlib Require Export Permutation.
+From Stdlib Require Export Relations.Relations.
+From Stdlib Require Export Classes.Morphisms.
+From Stdlib Require Export Setoids.Setoid.
+From Stdlib Require Export Sorting.PermutSetoid.
+From Stdlib Require Export Sets.Multiset.
+From Stdlib Require Export List.
+From Stdlib Require Export PeanoNat Lia.
 Require Export Eqset.
 Export ListNotations.
 

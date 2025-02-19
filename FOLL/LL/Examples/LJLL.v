@@ -6,15 +6,15 @@ We specify the system LJ for intuitionistic propositional logic. We encode that 
  *)
 
 (* Add LoadPath "../" . *) 
-Require Import Coq.Relations.Relations.
-Require Import Coq.Arith.EqNat.
-Require Import Coq.Classes.Morphisms.
-Require Import Coq.Setoids.Setoid.
-Require Export Coq.Sorting.PermutSetoid.
-Require Export Coq.Sorting.PermutEq.
-Require Import Coq.Program.Equality.
-Require Import Coq.Logic.FunctionalExtensionality.
-Require Export Permutation.
+From Stdlib Require Import Relations.Relations.
+From Stdlib Require Import Arith.EqNat.
+From Stdlib Require Import Classes.Morphisms.
+From Stdlib Require Import Setoids.Setoid.
+From Stdlib Require Export Sorting.PermutSetoid.
+From Stdlib Require Export Sorting.PermutEq.
+From Stdlib Require Import Program.Equality.
+From Stdlib Require Import Logic.FunctionalExtensionality.
+From Stdlib Require Export Permutation.
 Require Export LL.SequentCalculi.
 Require Export LL.SequentCalculiBasicTheory.
 Require Export LL.Multisets.

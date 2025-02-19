@@ -7,16 +7,16 @@ This files proves some permutation lemmas for the negative connectives.
 
 
 (* Add LoadPath "../../". *)
-Require Import Arith.
-Require Import Lia.
+From Stdlib Require Import Arith.
+From Stdlib Require Import Lia.
 Require Import TriSystem.
-Require Import Coq.Relations.Relations.
-Require Import Coq.Arith.EqNat.
-Require Import Coq.Classes.Morphisms.
-Require Import Coq.Setoids.Setoid.
-Require Export Coq.Sorting.PermutSetoid.
-Require Export Coq.Sorting.PermutEq.
-Require Import Coq.Program.Equality.
+From Stdlib Require Import Relations.Relations.
+From Stdlib Require Import Arith.EqNat.
+From Stdlib Require Import Classes.Morphisms.
+From Stdlib Require Import Setoids.Setoid.
+From Stdlib Require Export Sorting.PermutSetoid.
+From Stdlib Require Export Sorting.PermutEq.
+From Stdlib Require Import Program.Equality.
 
 Set Implicit Arguments.
 
