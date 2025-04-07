@@ -5,11 +5,11 @@
 Some tactics to automatize part of the proofs. 
  *)
 Require Export LL.MetaTheory.StructuralRules.
-Require Export Coq.Init.Logic.
-Require Export Coq.Arith.Wf_nat.
-Require Export Coq.Program.Equality.
-Require Export Coq.Arith.PeanoNat.
-Require Export Lia.
+From Stdlib Require Export Init.Logic.
+From Stdlib Require Export Arith.Wf_nat.
+From Stdlib Require Export Program.Equality.
+From Stdlib Require Export Arith.PeanoNat.
+From Stdlib Require Export Lia.
 Export ListNotations.
 Set Implicit Arguments.
 

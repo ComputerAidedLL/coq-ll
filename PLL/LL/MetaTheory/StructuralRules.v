@@ -6,7 +6,7 @@ We prove that, for all systems, multiset-equivalent contexts prove the same theo
 
  *)
 Require Export SequentCalculi.
-Require Export Coq.Arith.PeanoNat.
+From Stdlib Require Export Arith.PeanoNat.
 Set Implicit Arguments.
 
 #[local] Hint Resolve Nat.le_max_r Nat.le_max_l : core .

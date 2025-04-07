@@ -13,10 +13,10 @@ We assume that equality on such atomic propositions is decidablee
 
 
  *)
-Require Export Coq.Relations.Relations.
-Require Export Coq.Classes.Morphisms.
-Require Export Coq.Setoids.Setoid.
-Require Export Coq.Bool.Bool.
+From Stdlib Require Export Relations.Relations.
+From Stdlib Require Export Classes.Morphisms.
+From Stdlib Require Export Setoids.Setoid.
+From Stdlib Require Export Bool.Bool.
 Set Implicit Arguments.
 
 (** Type for atomic propositions *)

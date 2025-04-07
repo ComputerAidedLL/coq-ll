@@ -3,7 +3,7 @@
 (** ** Sets, Decidable Sets and Polarities
 *)
 
-Require Import PeanoNat.
+From Stdlib Require Import PeanoNat.
 
 (** Just a set *)
 

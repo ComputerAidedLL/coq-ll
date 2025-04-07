@@ -11,9 +11,9 @@ The type for atomic propositions must be decidable. We use in the Syntax Module,
 
 
 
-Require Export Coq.Classes.Morphisms.
-Require Export Coq.Setoids.Setoid.
-Require Export Coq.Relations.Relations.
+From Stdlib Require Export Classes.Morphisms.
+From Stdlib Require Export Setoids.Setoid.
+From Stdlib Require Export Relations.Relations.
 
 Module Type Eqset_dec.
 
